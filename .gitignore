@@ -1,0 +1,8 @@
+# ROS2 编译产物（colcon 生成，体积大且无展示价值）
+build/
+install/
+log/
+
+# 编辑器临时文件
+.vscode/
+*.swp
