@@ -9,6 +9,7 @@
 | # | 课程 | 笔记 | 源码 |
 |---|---|---|---|
 | 1 | 手写第一个 C++ Publisher 节点 | [notes/01-first-publisher.md](notes/01-first-publisher.md) | [arm_hello/](arm_hello/) |
+| 2 | 订阅者节点（发布→订阅闭环） | [notes/02-subscriber.md](notes/02-subscriber.md) | [arm_hello/](arm_hello/) |
 
 ## 笔记结构约定
 

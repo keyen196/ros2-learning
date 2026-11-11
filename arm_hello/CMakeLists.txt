@@ -27,4 +27,10 @@ ament_target_dependencies(hello_publisher rclcpp std_msgs)
 install(TARGETS hello_publisher
   DESTINATION lib/${PROJECT_NAME})
 
+add_executable(hello_subscriber src/hello_subscriber.cpp)
+ament_target_dependencies(hello_subscriber rclcpp std_msgs)
+install(TARGETS hello_subscriber
+  DESTINATION lib/${PROJECT_NAME})
+
+
 ament_package()
