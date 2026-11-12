@@ -32,5 +32,10 @@ ament_target_dependencies(hello_subscriber rclcpp std_msgs)
 install(TARGETS hello_subscriber
   DESTINATION lib/${PROJECT_NAME})
 
+add_executable(hello_subscriber_class src/hello_subscriber_class.cpp)
+ament_target_dependencies(hello_subscriber_class rclcpp std_msgs)
+install(TARGETS hello_subscriber_class
+  DESTINATION lib/${PROJECT_NAME})
+
 
 ament_package()
